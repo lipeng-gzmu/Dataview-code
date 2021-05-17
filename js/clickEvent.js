@@ -33,6 +33,7 @@ $(".thirdLetter .closeFirstLetter").click(function(){
 $(".catalogue4 a").click(function(){
 	$(".fourthLetter").css("z-index","1")
 	$(".fourthLetter").css("opacity","1")
+	
 })
 $(".fourthLetter .closeFirstLetter").click(function(){
 	$(".fourthLetter").css("z-index","-1")
