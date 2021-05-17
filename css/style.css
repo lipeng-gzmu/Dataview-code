@@ -9,7 +9,7 @@
 }
 canvas {
 	//background-image: radial-gradient(#666, #333);
-	background: rgba(0,0,0,0.05);
+	background: rgba(0,0,0,0);
 }
 
 #instructions {
@@ -266,14 +266,13 @@ canvas {
 	cursor: pointer;
 }
 .closeFirstLetter{
+	display: block;
 	color: red;
-	line-height: 30px;
-	text-align: center;
-	width: 30px;
-	height: 30px;
+	float: right;
 	margin-right: 0px;
 	margin-top: 0px;
-	float: right;
+	width: 50px;
+	height: 50px;
 }
 .timetiao{
 	display: block;
