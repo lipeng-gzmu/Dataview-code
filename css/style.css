@@ -1,0 +1,271 @@
+.bigBox {
+	height: 600px;
+	width: 1350px;
+	margin: 0 auto;
+	margin-top: 0px;
+	position: absolute;
+	background-image: url(../img/封面图片/封面4.jpg);
+	/*style="position:absolute; left:0px; top:0px; width:100%; height:100% width="100%" height="100%;*/
+}
+
+.title1 {
+	margin-left: 380px;
+	line-height: 70px;
+	font-size: 35px;
+	font-family: "gill sans mt";
+	color: brown;
+	position: relative;
+	top: 28px;
+}
+
+.title2 {
+	margin-left: 450px;
+	line-height: 80px;
+	font-size: 50px;
+	font-family: "gill sans mt";
+	color: brown;
+	position: relative;
+	top: 8px;
+}
+
+.next {
+	text-align: right;
+	margin-top: 260px;
+	height: 50px;
+	width: 200px;
+	line-height: 50px;
+	/*margin-right: 100px;*/
+	margin-left: 1125px;
+	font-size: 20px;
+	color: saddlebrown;
+}
+
+.next img {
+	display: block;
+	float: left;
+	width: 60px;
+	height: 50px;
+}
+
+.imgdiv {
+	float: left;
+	width: 60px;
+	height: 50px;
+}
+
+.next a:link {
+	display: block;
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-top: 10px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	color: saddlebrown;
+}
+
+.next a:hover {
+	color: saddlebrown;
+}
+
+.scrollslider{
+	display: block;
+	width: 220px;
+	height: 100px;
+	position: relative;
+}
+.scrollslider p{
+	display: block;
+	text-align: left;
+	margin-left: 20px;
+}
+.catalogue{
+    float: right;
+    margin-right: 5px;
+	width: 240px;
+	height: 100px;
+	position: relative;
+	font-size: 11px;
+	top: 10px;
+	border-radius: 20px;
+	background: rgba(0,0,0,0.1);
+	/*background-color: lightpink;*/
+}
+
+
+.next a:active {
+	color: orange;
+	font-size: 25px;
+}
+
+.catalogueBigBox {
+
+	height: 600px;
+	width: 1350px;
+	margin: 0 auto;
+	margin-top: 0px;
+	position: absolute;
+	background: url(../img/目录图片/目录-1.jpg) no-repeat;
+}
+
+.catalogue1 {
+	font-size: 25px;
+	color: white;
+	font-family: "gill sans mt";
+	position: relative;
+	top: 140px;
+	margin-left: 320px;
+	line-height: 30px;
+	font-weight: 600;
+	width: 150px;
+	height: 20px;
+}
+.catalogue11{
+	width: 150px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	line-height: 30px;
+	position: relative;
+	top: 150px;
+	margin-left: 290px;
+}
+.catalogueBigBox a:hover{
+	
+	cursor: pointer;
+}
+.catalogue2 {
+	width: 150px;
+	height: 90px;
+	font-size: 17px;
+	color: white;
+	font-family: "gill sans mt";
+	position: relative;
+	top:303px;
+	margin-left: 477px;
+	font-weight: 600;
+}
+.catalogue22{
+	width: 130px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	line-height: 30px;
+	position: relative;
+	top: 240px;
+	margin-left: 450px;
+}
+
+.catalogue3 {
+	width: 217px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    font-family: "gill sans mt";
+    position: relative;
+    top: 298px;
+    left: 461px;
+    font-weight: 600;
+	
+}
+.catalogue33{
+	width: 130px;
+	height: 20px;
+	float: left;
+	font-size: 15px;
+	line-height: 30px;
+	position: relative;
+	top: 297px;
+	margin-left: 450px;
+}
+.catalogue4 {
+	width: 230px;
+	height: 60px;
+	font-size: 35px;
+	color:  white;
+	font-family: "gill sans mt";
+	position: relative;
+	top: -88px;
+	left: 616px;
+	font-weight: 600;
+}
+.catalogue44{
+	width: 200px;
+	height: 40px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+	position: relative;
+	top: -58px;
+	left: 580px;
+}
+.catalogue5 {
+	width: 220px;
+	height: 60px;
+	font-size: 29px;
+	color: white;
+	font-family: "gill sans mt";
+	float: left;
+	font-weight: 600;
+	position: relative;
+	left: 670px;
+	top: 15px;
+}
+.catalogue55{
+	width: 100px;
+	height: 20px;
+	float: left;
+	font-size: 17px;
+	position: relative;
+	top: 70px;
+	left: 460px;
+}
+.firstLetter {
+
+	/*
+	 * 
+	top: 10%;
+	left: 10%;
+	width: 75%;
+	height: 70%;*/
+	padding: 0px;
+	/*border: 10px solid orange;*/
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}
+
+.firstLetter a:hover{
+	cursor: pointer;
+}
+.secondLetter a:hover{
+	cursor: pointer;
+}
+.thirdLetter a:hover{
+	cursor: pointer;
+}
+.fourthLetter a:hover{
+	cursor: pointer;
+}
+.fifthLetter a:hover{
+	cursor: pointer;
+}
+.closeFirstLetter{
+	color: red;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: right;
+}
+.timetiao{
+	display: block;
+	margin-top:10px;
+	margin-right: 20px;
+	width: 100px;
+	float: right;
+	color: #bd6d04;
+}
