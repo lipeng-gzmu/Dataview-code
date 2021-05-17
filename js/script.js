@@ -28,8 +28,7 @@ function init() {
 	l2.setCrossOrigin('Anonymous');
 	l2.load('images/spring.jpg', function(img) {
 		slide2.setImage(img);
-	})
-	
+	})	
   root.scene.add(slide2);
   
   var slide3 = new Slide(width, height,'out');
@@ -64,9 +63,6 @@ var slide4 = new Slide(width, height,'in');
   });
 }
 
-////////////////////
-// CLASSES
-////////////////////
 
 function Slide(width, height, animationPhase) {
   var plane = new THREE.PlaneGeometry(width, height, width * 2, height * 2);
