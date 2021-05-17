@@ -9,7 +9,7 @@
 }
 canvas {
 	//background-image: radial-gradient(#666, #333);
-	background: rgba(0,0,0,0.05);
+	background: rgba(0,0,0,0);
 }
 
 #instructions {

@@ -32,11 +32,28 @@ function init() {
 	
   root.scene.add(slide2);
   
-
+  var slide3 = new Slide(width, height,'out');
+  var l2 = new THREE.ImageLoader();
+	l2.setCrossOrigin('Anonymous');
+	l2.load('images/spring1.jpg', function(img) {
+		slide3.setImage(img);
+	})
+	
+  root.scene.add(slide3);
+var slide4 = new Slide(width, height,'in');
+  var l2 = new THREE.ImageLoader();
+	l2.setCrossOrigin('Anonymous');
+	l2.load('images/winter1.jpg', function(img) {
+		slide4.setImage(img);
+	})
+	
+  root.scene.add(slide4);
   var tl = new TimelineMax({repeat:-1, repeatDelay:1.0, yoyo: true});
 
   tl.add(slide.transition(), 0);
   tl.add(slide2.transition(), 0);
+  t1.add(slide3.transition(),0);
+  t1.add(slide4.transition(),0);
   
   createTweenScrubber(tl);
 
@@ -69,7 +86,7 @@ function Slide(width, height, animationPhase) {
   var i, i2, i3, i4, v;
 
   var minDuration = 0.8;
-  var maxDuration = 1.2;
+  var maxDuration = 2.4;
   var maxDelayX = 0.9;
   var maxDelayY = 0.125;
   var stretch = 0.11;
@@ -389,7 +406,7 @@ function createTweenScrubber(tween, seekSpeed) {
 
   // desktop
   var mouseDown = false;
-  document.body.style.cursor = 'pointer';
+ // document.body.style.cursor = 'pointer';
 
   window.addEventListener('mousedown', function(e) {
     mouseDown = true;
@@ -399,7 +416,7 @@ function createTweenScrubber(tween, seekSpeed) {
   });
   window.addEventListener('mouseup', function(e) {
     mouseDown = false;
-    document.body.style.cursor = 'pointer';
+    //document.body.style.cursor = 'pointer';
     resume();
   });
   window.addEventListener('mousemove', function(e) {
