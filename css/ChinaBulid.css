@@ -120,11 +120,9 @@
 }
 .closeFirstLetter{
 	display: block;
-	color: red;
-	float: right;
 	margin-right: 0px;
 	margin-top: 0px;
-	width: 30px;
-	height: 30px;
+	width: 75px;
+	height: 75px;
 }
 
