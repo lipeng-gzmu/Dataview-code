@@ -167,7 +167,7 @@
 }
 #dabingtu{
 	float: right;
-	margin-top:-450px;
+	margin-top:-870px;
 	margin-right: -140px;
     height: 500px;
 	width: 600px;
@@ -181,4 +181,9 @@
 	width: 900px;
 	height: 400px;
 }
-
+#barchart{
+				width: 800px;
+				height: 400px;
+				margin-top: 20px;
+				margin-left:20px;
+			}
