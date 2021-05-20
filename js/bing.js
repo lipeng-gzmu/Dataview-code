@@ -17,7 +17,7 @@ var placeHolderStyle = {
 };
 option = {
     title: {
-        text: '国民经济的恢复',
+        text: '重工业占工农业生产比例',
         //subtext: 'From ExcelHome',
         //sublink: 'http://e.weibo.com/1341556070/AhQXtjbqh',
         x: 'center',
@@ -37,7 +37,7 @@ option = {
     legend: {
         orient : 'vertical',
         //x : document.getElementById('main').offsetWidth / 2,
-        x:'80px',
+        x:'380px',
         y : 55,
         itemGap:12,
         data:['其它','重工业']
