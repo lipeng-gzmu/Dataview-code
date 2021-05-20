@@ -1,8 +1,8 @@
 var myChart = echarts.init(document.getElementById("soliderCount"))
 		option = {
     title: {
-        x: 'center',
-        text: '抗美援朝各省牺牲人数\n总：197653'
+        x: 'left',
+        text: '抗美援朝各省牺牲人数\n总人数：197653'
     },
     tooltip: {
         trigger: 'item'

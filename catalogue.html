@@ -16,26 +16,35 @@
 			<div class="catalogue1"><a id="catalogue1">第一封信</a>
 			</div>
 			<div class="catalogue11">
-					<marquee scrollamount="2">(中华人民共和国的成立和新生人民政权的巩固)</marquee>
+<marquee scrollamount="2">中华人民共和国的成立和新生人民政权的巩固</marquee>
 				</div>
 			<div class="catalogue2"><a>第二封信</a></div>
 			<div class="catalogue22">
-					<marquee scrollamount="2">(抗美援朝战争、土地改革和其他民主改革)</marquee>
+					<marquee scrollamount="2">抗美援朝战争、土地改革和其他民主改革</marquee>
 				</div>
 			<div class="catalogue3"><a>第三封信</a></div>
 			<div class="catalogue33">
-					<marquee scrollamount="2">(国民经济的恢复和各项建设的展开)</marquee>
+					<marquee scrollamount="2">国民经济的恢复和各项建设的展开</marquee>
 				</div>
 			<div class="catalogue4"><a>第四封信</a></div>
 			<div class="catalogue44">
-					<marquee scrollamount="2">(党在过渡时期的总路线和有计划大规模经济建设的开始)</marquee>
+					<marquee scrollamount="2">党在过渡时期的总路线和有计划大规模经济建设的开始</marquee>
 				</div>
 			<div class="catalogue5"><a>第五封信</a></div>
 			<div class="catalogue55">
-					<marquee scrollamount="2">(社会主义改造的基本完成和社会主义的建立)</marquee>
+					<marquee scrollamount="2">社会主义改造的基本完成和社会主义的建立</marquee>
 				</div>
 		</div>
-		
+		<div id="aa"></div>
+<script language="javascript">
+    var index=0;
+    var word="请点击信封"
+    function type(){
+        document.getElementById("aa").innerText = word.substring(0,index++);
+        if(index == 6)index=0;
+    }
+    setInterval(type, 400);
+</script>
 		<div class="firstLetter" id="letter">
 		<div class="closeFirstLetter"><a><img src="img/错误2.gif" width="50px"/> </a></div>
 
@@ -61,11 +70,33 @@
 			<div class="closeFirstLetter"><a><img src="img/错误2.gif"width="50px"/>  </a></div>
 			<div class="title">抗美援朝战争、土地改革和其他民主改革</div>
 			<div id="soliderCount"></div>
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td class="d1"></td>
+					<td>土地占有者</td>
+					<td>地主阶级与农名关系</td>
+					<td>产品分配</td>
+					<td rowspan="3">土</br>地</br>归</br>私</br>人</br>所</br>有</td>
+				</tr>
+				<tr>
+					<td>封建土地所有制</td>
+					<td>地主阶级</td>
+					<td>剥夺与被剥夺关系</td>
+					<td>地主阶级占有绝大部分劳动成果</td>
+				</tr>
+				<tr>
+					<td>农民土地所有制</td>
+					<td>农民</td>
+					<td>一样参加劳动</td>
+					<td>农民自己占有成果</td>
+				</tr>
+			</table>	
 			<div id="round_pie"></div>
 		</div>
 		<div class="thirdLetter" id="letter">
 			
 			<div class="closeFirstLetter"><a><img src="img/错误2.gif" width="50px"/> </a></div>
+			<div class="title">国民经济的恢复和各项建设的展开</div>
 			<div id="soliderCount"></div>
 			<div id="main"></div>
 		    <div id="dabingtu"></div>

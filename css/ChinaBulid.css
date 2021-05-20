@@ -24,7 +24,7 @@
 	top:25px;
 	left: 70px;
 	color: white;
-	background:url(../images/kangmei.jpg);
+	background:url(../img/封面图片/抗美援朝.jpg);
 	margin: 0 auto;
 	overflow: hidden;
 	z-index: -1;
@@ -38,6 +38,21 @@
     text-align: center;
     margin: 0,auto;
 }
+.secondLetter table{
+	display: block;
+	color: saddlebrown;
+	text-align: center;
+	float: left;
+	margin-left: -380px;
+	margin-top:40px;
+	border-collapse: collapse;
+	width: 300px;
+	height: 300px;
+}
+.secondLetter table td{
+	border: 1px solid black;
+}
+
 .thirdLetter {
 	width: 1200px;
 	height: 550px;
@@ -50,6 +65,14 @@
 	overflow: hidden;
 	z-index: -1;
 	opacity: 0;
+}
+.thirdLetter .title{
+	color: brown;
+    font-size: 40px;
+    font-family: 微软雅黑;
+    font-weight: 800;
+    text-align: center;
+    margin: 0,auto;
 }
 .fourthLetter {
 	width: 1200px;
@@ -136,7 +159,7 @@
 }
 #round_pie{
 	
-	margin-top: -475px;
+	margin-top: -550px;
 	width:400px;
 	height: 500px;
 	float: right;
@@ -146,7 +169,8 @@
 }
 #dabingtu{
 	float: right;
-	margin-top:-350px;
+	margin-top:-450px;
+	margin-right: -140px;
     height: 500px;
 	width: 600px;
 }
@@ -155,7 +179,7 @@
 }
 #soliderCount{
 	float: left;
-	margin-top: 80px;
+	margin-top: 150px;
 	width: 900px;
 	height: 400px;
 >>>>>>> dataview/master
