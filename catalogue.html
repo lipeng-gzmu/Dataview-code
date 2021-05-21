@@ -17,7 +17,7 @@
 			<div class="catalogue1"><a id="catalogue1">第一封信</a>
 			</div>
 			<div class="catalogue11">
-					<marquee scrollamount="2">中华人民共和国的成立和新生人民政权的巩固</marquee>
+<marquee scrollamount="2">中华人民共和国的成立和新生人民政权的巩固</marquee>
 				</div>
 			<div class="catalogue2"><a>第二封信</a></div>
 			<div class="catalogue22">
@@ -36,9 +36,19 @@
 					<marquee scrollamount="2">社会主义改造的基本完成和社会主义的建立</marquee>
 				</div>
 		</div>
-		
+		<div id="aa"></div>
+<script language="javascript">
+    var index=0;
+    var word="请点击信封"
+    function type(){
+        document.getElementById("aa").innerText = word.substring(0,index++);
+        if(index == 6)index=0;
+    }
+    setInterval(type, 400);
+</script>
 		<div class="firstLetter" id="letter">
-			<div class="closeFirstLetter"><a><img src="img/错误2.gif" width="50px"/> </a></div>
+		<div class="closeFirstLetter"><a><img src="img/错误2.gif" width="50px"/> </a></div>
+
 			<div class="textitle">
 				中华人民共和国的成立和新生人民政权的巩固
 			</div>
