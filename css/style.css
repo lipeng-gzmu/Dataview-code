@@ -293,3 +293,15 @@ canvas {
 	top:405px;
 	left: 198px;
 }
+.littletip{
+	width: 20px;
+	height: 400px;
+	position: relative;
+	top: 30px;
+	left: 40px;
+	float: left;
+	color:  #000000;
+	font-size: 18px;
+	font-weight: 700;
+	writing-mode:lr-tb
+}
