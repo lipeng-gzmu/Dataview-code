@@ -171,3 +171,91 @@ p{margin-bottom: 5px; font-size: 14px; color: #999; text-align: center;}
    box-shadow: 0 0 10px 3px #ffae12;
 }
 
+#meaning{
+	width: 550px;
+	height: 450px;
+	float: right;
+	margin-right: 20px;
+	margin-top:20px ;
+}
+
+#meaning1{
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	margin-left: 120px;
+	margin-top:15px ;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+	
+}
+.meaningimgs1{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: url(../img/第五封信小图标.jpg);
+}
+
+#meaning11{
+	width: 350px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	margin-left: 50px;
+	font-size: 22px;
+	color: black;
+	font-weight: 700;
+}
+
+
+#meaning2{
+	width: 360px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-left: 160px;
+	margin-top:20px ;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	
+	
+}
+.meaningimgs2{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background: url(../img/第五封信小图标2.jpg);
+}
+
+
+#meaning21{
+	width: 310px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-left: 50px;
+	font-size: 18px;
+	color: black;
+	font-weight: 700;
+	
+}
+
+.meaningimgs3{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	background: url(../img/第五封信小图标3.jpg);
+}
+
+#meaning3{
+	width: 290px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 230px;
+	margin-top:15px ;
+	color: black;
+	font-size: 15px;
+	font-weight: 700;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
