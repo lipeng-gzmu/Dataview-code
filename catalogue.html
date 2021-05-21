@@ -125,6 +125,18 @@ $(function(){
 		<div class="fourthLetter" id="letter">
 			<div class="closeFirstLetter"><a><img src="img/错误2.gif" width="50px"/> </a></div>
 			<div class="title">党在过渡时期的总路线和有计划大规模经济建设的开始</div>
+			
+	<script language="javascript">
+   
+    	var index2=0;
+    var word2="新中国大规模的有计划的经济建设开始于1953年，是第一个五年计划实施的年份，主要是对国家重大建设项目、生产力分布和国民经济重要比例关系等作出规划和建设，为国民经济发展远景规定目标和方向。第一个五年计划的制定与实施标志着系统建设社会主义的开始。"
+    function type2(){
+        document.getElementById("totalline").innerText = word2.substring(0,index2++);
+        if(index2 == word2.length)index2=0;
+    }
+    setInterval(type2, 100);
+   
+</script>
 			<div class="windows5">
 				<div class="focus">
 			 <div id="gallery">
@@ -137,7 +149,7 @@ $(function(){
 	    </div>
 			 </div>
 			</div>
-			
+			<div id="totalline"></div>
 		</div>
 		<div class="fifthLetter" id="letter">			
 			<div class="closeFirstLetter"><a><img src="img/错误2.gif" width="50px"/> </a></div>

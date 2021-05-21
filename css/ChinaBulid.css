@@ -81,7 +81,7 @@
 	top:25px;
 	left: 70px;
 	color: white;
-	background: url(../img/窗口/第四封信背景.jpg);
+	background: url(../img/窗口/第四封信背景2.jpg);
 	margin: 0 auto;
 	overflow: hidden;
 	z-index: -1;
@@ -194,10 +194,6 @@
 	margin-top: 150px;
 	width: 900px;
 	height: 400px;
-<<<<<<< HEAD
-=======
-
->>>>>>> dataview/master
 }
 #barchart{
 				width: 800px;
@@ -218,4 +214,13 @@
 }
 #ft-buttons-gallery{
 	opacity: 0;
+}
+#totalline{
+	float: right;
+	width: 280px;
+	height: 120px;
+	margin-top: -410px;
+	margin-right: 10px;
+	color: black;
+	z-index: 20;
 }
