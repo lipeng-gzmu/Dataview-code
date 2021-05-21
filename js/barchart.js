@@ -45,7 +45,7 @@ option = {
         },
         axisLabel: {
             color: labelColor,
-            fontSize: fontSize,
+            fontSize: '20',
             margin: 20,
         },
         axisLine: {
